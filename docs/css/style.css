@@ -1,0 +1,138 @@
+header{
+	max-width: 100%;
+	max-height: 100%;
+	color: white;
+}
+header p{
+	font-size:50px;
+}
+
+body{
+	background-color: black;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+	margin: 0;
+	margin-bottom: -50px;
+}
+
+main{
+	margin: 50px 0 50px  0;
+	background-color: black; 
+	color:white;
+	height: auto;
+	max-height:100%;
+	max-width: 100%;
+}
+
+footer{	
+	color: white;
+	text-align: center;
+}
+
+footer a{
+	text-decoration: none;
+	color: blue;
+}
+/*///////////////////////////////////////
+-------------CLASES---------------------
+///////////////////////////////////////*/
+
+.title{
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+	display: inline-block;
+}
+
+.crys-ball{
+	max-height: 100%;
+	width: 100%;
+	margin-top: 50px;
+	margin:50px 0 0 250px;
+}
+
+.txt-ctr{
+	text-align: center;
+}
+
+.txt-img-ctr{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ctr{
+	margin-left: auto;
+	margin-right: auto; 
+	display: block;
+}
+
+.nav-item{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+
+.nav-item:hover{
+	background-color: #A274BF;
+	border-radius: 5px;
+}
+
+.container{
+	position: relative;
+    display: block;
+    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.datos{
+	margin-left: auto;
+	margin-right: auto;
+	width: max-content;
+}
+
+.entrada{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #A274BF;
+	color:white;
+	border-radius: 5px;
+	border-color: black;
+}
+/*///////////////////////////////////////
+------------------ID---------------------
+///////////////////////////////////////*/
+#ico-ini{
+	height: auto;
+	max-height: 50px;
+	width: auto;
+	max-width: 50px;
+}
+
+#btn{
+	border-radius: 50%;
+	background-color: #A274BF;
+	color:white;
+	padding: 5px 10px 5px 10px;
+}
+#btn:hover{
+	background-color: white;
+	color:#A274BF;
+}
+
+#plusBtn{
+	background-color: #A274BF;
+	color: white;
+	border-radius: 5px;
+}
+
+#aceptar{
+	background-color: #A274BF;
+	color: white;
+	border-radius: 5px;
+}

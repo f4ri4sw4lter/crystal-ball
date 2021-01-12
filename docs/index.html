@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Farias Walter">
+	<meta name="description" content="Aplicacion Web para tomar decisiones">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/crystal-ball.svg" />
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+
+	<title>Bola de Cristal Magica</title>
+</head>
+
+<body>
+	<header>
+		<p class="txt-ctr">Deja tus decisiones a la suerte<img src="assets/img/witch-hat.svg" alt="sombrero de bruja" id="ico-ini"></p>  
+	</header>
+
+<main>
+	<!-- INGRESO DE OPCIONES -->
+	<div>
+		<p class="txt-ctr">Ingresa tus opciones</p>
+		<div class="datos">
+			<input class="entrada txt-ctr" type="text" name="dato" id="dato" placeholder="opcion" autofocus onkeypress="apretarEnter(event)">
+			<button id="plusBtn" onclick="agregarDato()">+</button>
+		</div>
+		<br>
+		<button class="ctr" id="aceptar" onclick= "random()" >aceptar</button>	
+		
+	</div>
+
+	<!-- IMAGEN DE LA BOLA -->
+	<div class="container">
+		<img src="assets/img/crystal-ball.svg" alt="bola de cristal">
+		<div class="txt-img-ctr">
+			<p id="resultado"></p>
+		</div>
+	</div>
+</main>
+
+<!-- RUTA JS -->>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/notify.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- FOOTER -->
+<footer>
+	<p>By Farias Walter</p>
+	<p>2020</p>	
+</footer>
+
+</body>
+</html>
